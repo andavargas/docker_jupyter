@@ -34,7 +34,7 @@ This set-up creates a small virtual computer (a "container") managed by Docker t
 
 If you want to access files from the Jupyter notebook in your browser, add them to the workdir or workdir/files directories that are wherever you cloned the repo to. If you want to write a file from inside the Jupyter notebook, be sure to save it to the workdir or workdir/files directories, because if you save it anywhere else it won't get copied to your hard drive (it'll stay trapped in the container).
 
-## Installing or updating new packages
+## Upgrading or installing new packages
 
 If you want to use additional Python packages, add them to the requirements.txt, add import statements at the top of your Jupyter notebook, and re-run the `run_build_docker` script. If you want to upgrade a package, upgrade its number in requirements.txt and re-run the `run_build_docker` script.
 
@@ -44,4 +44,4 @@ If you want to upgrade Python, upgrade the number at the top of the Dockerfile (
 
 ## Monitoring and cleaning up
 
-You can use Docker Desktop to see whether your container is running. You can also use Docker tools for more advanced operations like opening a shell into your container. If you use this repo a lot, over time you may accumulate a lot of old Docker images and containers that take up a lot of hard drive space, and you can stop and/or delete them in Docker Desktop.
+You can use Docker Desktop to see whether your container is running. You can use other Docker Desktop tools for more advanced operations like opening a shell into your container. If you use this repo a lot, over time you may accumulate a lot of old Docker images and containers that take up a lot of hard drive space, and you can stop and/or delete them in Docker Desktop.
