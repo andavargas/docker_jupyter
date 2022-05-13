@@ -32,7 +32,7 @@ This set-up creates a small virtual computer (a "container") managed by Docker t
 
 ## Where to put stuff
 
-If you want to access files from the Jupyter notebook in your browser, add them to the workdir or workdir/files directories that are wherever you cloned the repo to. If you want to save to a file from inside the Jupyter notebook, be sure to put it in the workdir or workdir/files directories, because if you save it anywhere else it won't get copied to your hard drive (it'll stay trapped in the container). If you want to write code you can import to your notebook, add to my_module.py or create your own module and import it into your notebook.
+If you want to access files from the Jupyter notebook in your browser, add them to the `workdir` or `workdir/files` directories that are wherever you cloned the repo to. If you want to save to a file from inside the Jupyter notebook, be sure to put it in the `workdir` or `workdir/files` directories, because if you save it anywhere else it won't get copied to your hard drive (it'll stay trapped in the container). If you want to write code you can import to your notebook, add to `my_module.py` or create your own module and import it into your notebook.
 
 ## Upgrading or installing new packages
 
