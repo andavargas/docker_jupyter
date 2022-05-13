@@ -24,6 +24,8 @@ After fulfilling the prerequisites:
 4. Open cmd.exe, `cd` (navigate) into the repo directory you cloned above, and run `build_run_docker_win.bat`
 5. copy the URL that appears at the bottom (something like "http://127.0.0.1:8888/?token=tOkEn") and paste it into your web browser
 
+That's it! Code away inside the Jupyter notebook in your browser.
+
 # What's going on?
 
 This set-up creates a small virtual computer (a "container") managed by Docker that Python and Jupyter get installed into. It makes one connection with a port, allowing your web browser to access inside the container, and another connection with a volume, allowing Jupyter to read and write files in the `workdir` directory on your hard drive. Except for these explicit connections, the container is totally isolated from your operating system and hard drive.
