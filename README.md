@@ -24,7 +24,7 @@ After fulfilling the prerequisites:
 4. Open cmd.exe, `cd` (navigate) into the repo directory you cloned above, and run `build_run_docker_win.bat`
 5. copy the URL that appears at the bottom (something like "http://127.0.0.1:8888/?token=tOkEn") and paste it into your web browser
 
-That's it! Code away inside the Jupyter notebook in your browser.
+That's it! Open notebook.ipynb and code away in your browser.
 
 # What's going on?
 
