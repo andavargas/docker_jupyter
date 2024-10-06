@@ -1,4 +1,4 @@
-FROM python:3.9.7-bullseye
+FROM python:3.12.7-bullseye
 
 COPY ./requirements.txt .
 RUN pip install -r requirements.txt 
